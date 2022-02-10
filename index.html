@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scott Lingran</title>
+</head>
+<body>
+  <script>
+    /* Generated with Codex. */
+
+    /* Add picture to centre of the screen. */
+    var img = document.createElement('img');
+    img.src = 'https://i.imgur.com/kYHEnsA.jpg';
+    img.style.position = 'absolute';
+    img.style.left = '50%';
+    img.style.top = '50%';
+    img.style.width = '150px';
+    img.style.height = '150px';
+    img.style.transform = 'translate(-50%, -50%)';
+    document.body.appendChild(img);
+
+    /* Disallow the image to be dragged around. */
+    img.ondragstart = function() {
+      return false;
+    }
+
+    console.log("Contact me on: scott.lingran [at] gmail [dot] com ")
+
+  </script>
+</body>
+</html>
